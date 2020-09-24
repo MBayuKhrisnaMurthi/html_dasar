@@ -1,0 +1,19 @@
+https://mpdf.github.io/
+
+composer require mpdf/mpdf
+
+
+paggil librarinya
+require_once __DIR__ . '/vendor/autoload.php';
+
+buat instasiasinya
+$mpdf = new \Mpdf\Mpdf();
+
+jalankan perintahnya
+$mpdf->WriteHTML('<h1>Hello world!</h1>');
+$mpdf->Output();
+
+<-------------------------
+http://mfikri.com/artikel/Datatable-serverside-processing-menggunakan-codeigniter.html
+https://datatables.net/examples/data_sources/server_side
+https://www.gyrocode.com/articles/jquery-datatables-checkboxes/
